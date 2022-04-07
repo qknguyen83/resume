@@ -26,14 +26,6 @@ const sectionVariants = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      delay: 0.6,
-    },
-  },
-  exit: {
-    y: 10,
-    opacity: 0,
-    transition: {
-      duration: 0.5,
     },
   },
 };
@@ -45,7 +37,6 @@ const Section = ({ title, children }) => {
       variants={sectionVariants}
       initial='hidden'
       animate='visible'
-      exit='exit'
     >
       <Typography sx={styles.typography} variant='h6'>
         {title}

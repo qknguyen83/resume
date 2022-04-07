@@ -29,14 +29,6 @@ const sectionVariants = {
     opacity: 1,
     transition: {
       duration: 0.5,
-      delay: 0.6,
-    },
-  },
-  exit: {
-    y: 10,
-    opacity: 0,
-    transition: {
-      duration: 0.5,
     },
   },
 };
@@ -48,7 +40,6 @@ const Avatar = () => {
       variants={sectionVariants}
       initial='hidden'
       animate='visible'
-      exit='exit'
     >
       <Box>
         <Typography sx={styles.name} variant='h4'>

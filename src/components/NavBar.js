@@ -45,7 +45,7 @@ const NavBar = () => {
                 <Button
                   sx={styles.button}
                   color='inherit'
-                  onClick={() => navigate('/')}
+                  onClick={() => navigate('/profile')}
                 >
                   Profile
                 </Button>

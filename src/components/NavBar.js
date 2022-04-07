@@ -45,14 +45,14 @@ const NavBar = () => {
                 <Button
                   sx={styles.button}
                   color='inherit'
-                  onClick={() => navigate('/profile')}
+                  onClick={() => navigate('/resume/profile')}
                 >
                   Profile
                 </Button>
                 <Button
                   sx={styles.button}
                   color='inherit'
-                  onClick={() => navigate('/projects')}
+                  onClick={() => navigate('/resume/projects')}
                 >
                   Projects
                 </Button>

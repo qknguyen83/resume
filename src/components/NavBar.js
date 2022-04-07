@@ -66,7 +66,8 @@ const NavBar = () => {
                 <Button
                   sx={styles.button}
                   color='inherit'
-                  onClick={() => console.log('source')}
+                  target='_blank'
+                  href='https://github.com/qknguyen83/resume'
                 >
                   Source
                 </Button>

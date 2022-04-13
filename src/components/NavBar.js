@@ -32,35 +32,19 @@ const NavBar = () => {
   });
 
   return (
-    <AppBar
-      position='sticky'
-      color={trigger ? 'default' : 'transparent'}
-      elevation={0}
-    >
+    <AppBar position='sticky' color={trigger ? 'default' : 'transparent'} elevation={0}>
       <Toolbar variant='dense'>
         <Grid container justifyContent='center'>
           <Grid item xs={12} sm={10} md={8} lg={5}>
             <Container sx={styles.container} disableGutters>
               <Box sx={styles.box}>
-                <Button
-                  sx={styles.button}
-                  color='inherit'
-                  onClick={() => navigate('/resume/profile')}
-                >
+                <Button sx={styles.button} color='inherit' onClick={() => navigate('/profile')}>
                   Profile
                 </Button>
-                <Button
-                  sx={styles.button}
-                  color='inherit'
-                  onClick={() => navigate('/resume/projects')}
-                >
+                <Button sx={styles.button} color='inherit' onClick={() => navigate('/projects')}>
                   Projects
                 </Button>
-                <Button
-                  sx={styles.button}
-                  color='inherit'
-                  onClick={() => console.log('resume')}
-                >
+                <Button sx={styles.button} color='inherit' onClick={() => console.log('resume')}>
                   Resume
                 </Button>
                 <Button

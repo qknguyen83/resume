@@ -27,7 +27,7 @@ const Projects = () => {
       </Typography>
       <Typography align='center'>Page not found</Typography>
       <Box sx={styles.box}>
-        <Button color='inherit' onClick={() => navigate('/resume/profile')}>
+        <Button color='inherit' onClick={() => navigate('/profile')}>
           Return
         </Button>
       </Box>

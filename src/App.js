@@ -29,13 +29,9 @@ const App = () => {
       <CssBaseline />
       <Layout>
         <Routes location={location} key={location.key}>
-          <Route
-            path='/resume'
-            element={<Navigate to='/resume/profile' />}
-            exact
-          />
-          <Route path='/resume/profile' element={<Profile />} />
-          <Route path='/resume/projects' element={<Projects />} />
+          <Route path='/' element={<Navigate to='/profile' />} exact />
+          <Route path='/profile' element={<Profile />} />
+          <Route path='/projects' element={<Projects />} />
           <Route path='*' element={<NotFound />} />
         </Routes>
       </Layout>

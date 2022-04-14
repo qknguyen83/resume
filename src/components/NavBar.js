@@ -44,7 +44,12 @@ const NavBar = () => {
                 <Button sx={styles.button} color='inherit' onClick={() => navigate('/projects')}>
                   Projects
                 </Button>
-                <Button sx={styles.button} color='inherit' onClick={() => console.log('resume')}>
+                <Button
+                  sx={styles.button}
+                  color='inherit'
+                  target='_blank'
+                  href='https://drive.google.com/file/d/12Pq6O-0gnit7G4ddv29fZJpAxTr9l2KI/view?usp=sharing'
+                >
                   Resume
                 </Button>
                 <Button

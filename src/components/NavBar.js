@@ -48,7 +48,7 @@ const NavBar = () => {
                   sx={styles.button}
                   color='inherit'
                   target='_blank'
-                  href='https://drive.google.com/file/d/12Pq6O-0gnit7G4ddv29fZJpAxTr9l2KI/view?usp=sharing'
+                  href='https://drive.google.com/file/d/1nSdpZf_OF2Cceu1On5iieQ5OznM62gsy/view?usp=sharing'
                 >
                   Resume
                 </Button>

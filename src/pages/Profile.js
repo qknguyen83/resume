@@ -39,6 +39,7 @@ const Profile = () => {
             </Typography>
           </Section>
           <Section title='Key Qualifications'>
+            <Typography sx={styles.listItem}>Proficient with Python 3, JavaScript (ES6)</Typography>
             <Typography sx={styles.listItem}>
               Solid data structure and algorithms foundation
             </Typography>
